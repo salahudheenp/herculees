@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+      background-color:black
+  }
+  
+
+
+
+  .header{
+      width: 100%;
+      height: 100px;
+      background-color:black;
+      display: flex;
+      flex-direction: row;
+
+  }
+  .logo
+  {
+      width: 255px;
+      height: 67px;
+      background-color: rgb(0, 0, 0);
+      align-self: center;
+      margin-left: 100px;
+      display: flex;
+      align-items: center;
+  }
+  .nav{
+      width: 788px;
+      height: 86px;
+      color: rgb(242, 245, 247);
+      margin-left: 190px;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+  }
+.log1{
+      align-self: center;
+  }
+  .mnu{
+    font-family: "IBM Plex Sans Condensed", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-style: normal;
+  }
+
+.srchimg{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+.srchimg img{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(114, 120, 126);
+}
+.vedo{
+    margin-top: 0px;
+    padding-top: 60px;
+    
+    float: left;
+
+
+}
+
+
+.vedo2{
+    width: 100%;
+    height: 0px;
+padding-top: 1300px;
+    background-position: center center;
+
+    background-image: url(https://hercules.in/wp-content/uploads/2020/09/Web-1920-–-1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vdo{
+    width: 800px;
+    height: 460px;
+    background-color: aliceblue;
+    margin-top: 0%; 
+    position: absolute;
+    top: 1000px;
+
+
+}
+.sec1{
+    background-color: black;
+}
+.pant{
+    width: 1100px;
+    height: 800px;
+
+    position: absolute;
+    top: 1550px;
+}
+.pant h4{
+    font-family: "IBM Plex Sans Condensed", Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+.inn{
+    width: 100%;
+    height: 60px;
+
+    position: absolute;
+    top: 1700px;
+ 
+}
+.inn hr{
+    width: 35%;
+    margin-left: 60%;
+    margin-top: 27px;
+}
+.inn h1{
+    margin-left: 5%;
+    margin-top: 0%;
+    align-items: center;
+    font-family: "IBM Plex Sans Condensed", Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 50px   ;
+    margin-bottom: 4%;
+    color: aliceblue;
+    position: absolute;
+    top: 3px;
+    left: 47px;
+}
+
+ 
+    
+
+
+.inner{
+    width: 1144px;
+    height: 520;
+    
+    position: relative;
+    margin-top: 10px;
+    margin-left: 230px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cyc1{
+    width: 572px;
+    height: 500px;
+    
+}
+.cyc2{
+    width: 572px;
+    height: 500px;
+    
+}
+.inn1{
+width: 100%;
+    height: 105px;
+     position: absolute;
+    top: 2350px;
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+  
+} 
+
+.inn1 h1{
+    font-family: "IBM Plex Sans Condensed", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 50px;
+ color: aliceblue;   
+ position: inherit;
+}
+.body{
+    width: 100%;
+    margin-top: 400px;
+    
+    display: flex;
+    justify-content: center;
+}
+.bod1{
+    width: 1144px;
+    height: 560px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+
+}
+.innbody1{
+    width: 572px;
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.innbody2{
+    width: 572px;
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bdimg{
+    width: 530px;
+    height: 322px;
+    
+}
+.bdtitl{
+    width: 528px;
+    height: 90px;
+    
+    margin-top: 15px;
+}
+.bdbtn{
+    width: 308px;
+    height: 63px;
+    
+    margin-top: 40px;
+}
+.tit{
+    width: 100%;
+    color: aliceblue    ;
+    margin: 5px 2px 5px 2px ;
+    font-family: "IBM Plex Sans Condensed", Arial, Helvetica, sans-serif;
+}
+.btn{
+    width: 350px;
+    height: 100%;
+    background-color:red;
+    border-radius: 10px;
+    border: 0ch;
+    line-height: 17px;
+    font-size: 14px;
+    color: white;
+
+}
+.sec2{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+.sec3{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-color: black;
+     display: flex;
+    justify-content: center;
+
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.f1{
+    width: 500px;
+    height: 15px;
+    
+    margin-left: 34%;
+}
+.f2{
+    width: 400px;
+    height: 26px;
+    
+    margin-left: 37%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.fh{
+    width: 100%;
+    color: aliceblue;
+    margin-left: 20px;
+    font-family: "IBM Plex Sans Condensed", Arial, Helvetica, sans-serif;
+}
+.fimg{
+    width: 40%;
+    height: 170%;
+    display: flex;
+    margin-left: 94px;
+background-color: rgb(110, 112, 114);
+}
